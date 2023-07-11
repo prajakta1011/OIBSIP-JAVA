@@ -1,0 +1,16 @@
+public class Atm {
+   private double balance;
+   private double depositAmount;
+   private double withdrawAmount;
+
+   public Atm() {
+   }
+
+   public double getBalance() {
+      return this.balance;
+   }
+
+   public void setBalance(double var1) {
+      this.balance = var1;
+   }
+}
